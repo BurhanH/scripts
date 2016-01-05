@@ -1,0 +1,84 @@
+﻿cd
+cd ..
+cd /users/user/home
+cd ~
+
+pwd
+
+ls
+ls -lah
+
+date
+
+time
+
+uname -a
+
+df -h
+
+top
+htop
+
+iotop --only
+
+ssh
+ssh root@10.0.0.9
+
+exit
+
+scp
+scp /users/user/home/somefiles user@10.0.0.5:/users/user1/somefiles1
+
+tar
+tar -cvzf filename.tar.gz
+
+
+find
+
+cp
+
+mv
+
+rm (be careful to use!)
+
+touch
+
+mkdir
+
+netstat -an|grep 80
+netstat -an|grep *.80 -c
+
+free
+free -m
+
+vi
+
+crontab
+
+cat
+
+tail
+
+less
+
+chmod
+
+chown
+
+who
+
+ping
+
+telnet
+
+ifconfig
+
+traceroute
+
+du
+du /somefolder/
+du /somefolder/ | sort > /tmp/somefolder_list.txt
+
+mount
+
+unmount

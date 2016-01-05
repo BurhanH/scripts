@@ -1,0 +1,4 @@
+﻿#This script is copy files between 2 servers 
+
+(cd /backup/files; tar -c -z -f - *) | ssh root@10.0.0.7 tar -x -z -f - -v -C /backup/files
+
