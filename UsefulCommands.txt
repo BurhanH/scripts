@@ -82,3 +82,7 @@ du /somefolder/ | sort > /tmp/somefolder_list.txt
 mount
 
 unmount
+
+history
+
+last
