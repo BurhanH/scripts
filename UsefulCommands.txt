@@ -32,7 +32,6 @@ scp /users/user/home/somefiles user@10.0.0.5:/users/user1/somefiles1
 tar
 tar -cvzf filename.tar.gz
 
-
 find
 
 cp
@@ -86,3 +85,6 @@ unmount
 history
 
 last
+
+kill
+kill -9
