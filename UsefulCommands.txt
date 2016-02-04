@@ -57,6 +57,7 @@ crontab
 cat
 
 tail
+tail -100
 
 less
 
