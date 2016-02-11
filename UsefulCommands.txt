@@ -89,3 +89,14 @@ last
 
 kill
 kill -9
+
+search and limit the release of information on results
+
+	find /tmp -name * | exec head -3
+
+Warning! delete empty directories!
+it is desirable to specify a search path, you can delete the system files and the system will be crash. 
+
+	find -depth -type d -empty -exec rmdir {} \;
+	find . -type d -empty -delete
+	find . -type d -empty -print0 | xargs -0 rm -rf
