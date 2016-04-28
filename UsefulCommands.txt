@@ -90,6 +90,8 @@ last
 kill
 kill -9
 
+(pwd)
+
 search and limit the release of information on results
 
 	find /tmp -name * | exec head -3
